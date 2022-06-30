@@ -18,9 +18,10 @@ External data sets used from ChEMBL, Drugbank and Enamine are not included in th
 The installation has only been tested on Linux (Ubuntu 22.04).
 
 1. Clone this repo and change into the directory
-1. Create a new conda environment and install the dependencies:
+1. Create a new conda environment, install the dependencies and activate the environment:
     ```
     conda env create -f environment.yml
+    conda activate smo  # if the name from the environment file was used
     ```
 1. Link the RDKit's Contrib folder to one of Python's import paths. This is necessary for the calculation of the Natural Product Likeness score.
     e.g.:
@@ -36,8 +37,6 @@ The installation has only been tested on Linux (Ubuntu 22.04).
     e.g.: `ln -s <path-to-this-repo>/jupy_tools <path-to-conda-env>/lib/python3.9/site-packages/`
 (I actually prefer this to using setuptools, because a simple git pull will get the newest version). 
 
-1. Activate the environment to run the Notebooks and scripts:
-    `conda activate smo`
 
 ## jupy_tools
 ### `utils`
@@ -95,6 +94,3 @@ optional arguments:
   -n N                  Show info every `N` records (default: 1000).
   -v                    Turn on verbose status output.
   ```
-
-
-
