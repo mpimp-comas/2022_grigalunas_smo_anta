@@ -1,10 +1,11 @@
 # 2022_grigalunas_smo_anta
 
-This repository contains the Jupyter Notebooks that were used to perform the cheminformatics analyses and generate the respective plots for
+This repository contains the Jupyter Notebooks that were used to perform the cheminformatics analyses and generate the respective plots for the paper:
 
 **Unprecedented Combination of Polyketide Natural Product Fragments Identifies the Novel Hedgehog Signaling Pathway Inhibitor Grismonone**  
 Dr. Michael Grigalunas, Dr. Sohan Patil, Adrian Krzyzanowski, Dr. Axel Pahl, Dr. Jana Flegel, Beate
-Schölermann, Dr. Jianing Xie, Dr. Sonja Sievers, Dr. Slava Ziegler, Prof. Dr. Herbert Waldmann
+Schölermann, Dr. Jianing Xie, Dr. Sonja Sievers, Dr. Slava Ziegler, Prof. Dr. Herbert Waldmann  
+[DOI](https://doi.org/10.1002/chem.202202164)
 
 It also contains a set of Notebook helper utilities (`jupy_tools/utils`) and scripts for compound structure standardization and filtering (`stand_struct.py`) (under `python_scripts`).
 
